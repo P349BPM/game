@@ -1,0 +1,343 @@
+[
+  {
+    "question": "Conforme o inciso XI do art. 5º da CF, a casa é asilo inviolável do indivíduo. Em quais das seguintes hipóteses é permitida a entrada sem consentimento do morador?",
+    "options": [
+      "Apenas em caso de flagrante delito.",
+      "Em caso de flagrante delito, desastre, para prestar socorro ou, durante o dia, por determinação judicial.",
+      "Durante o dia, por qualquer agente de segurança pública, sem necessidade de ordem judicial.",
+      "A qualquer hora do dia ou da noite, desde que haja suspeita fundada de prática criminosa.",
+      "Apenas com ordem judicial, independentemente do horário."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "De acordo com o art. 5º, XLIII, da Constituição Federal, são considerados crimes inafiançáveis e insuscetíveis de graça ou anistia, EXCETO:",
+    "options": [
+      "A prática da tortura.",
+      "O tráfico ilícito de entorpecentes e drogas afins.",
+      "O terrorismo.",
+      "Os crimes hediondos.",
+      "O homicídio simples culposo."
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Segundo o inciso LXVII do art. 5º da CF, a prisão civil por dívida é permitida em qual situação?",
+    "options": [
+      "Do responsável pelo inadimplemento de qualquer obrigação contratual.",
+      "Do depositário infiel em qualquer caso.",
+      "Do responsável pelo inadimplemento voluntário e inescusável de obrigação alimentícia.",
+      "Do devedor de tributos federais.",
+      "Do sócio de empresa em recuperação judicial."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Conforme o princípio da publicidade (art. 37, caput), os atos da administração pública devem ser divulgados. Qual é a principal finalidade dessa publicidade?",
+    "options": [
+      "Gerar receita para o Estado por meio da cobrança de taxas.",
+      "Permitir o controle da administração pela sociedade.",
+      "Substituir a necessidade de formalização escrita dos atos.",
+      "Impedir o acesso de terceiros a informações pessoais.",
+      "Restringir o conhecimento dos atos a um círculo de servidores."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Nos termos do art. 37, II, da CF, a investidura em cargo ou emprego público depende de:",
+    "options": [
+      "Aprovação prévia em concurso público de provas ou de provas e títulos.",
+      "Indicação política e aprovação em avaliação de currículo.",
+      "Experiência prévia no serviço público como comissionado.",
+      "Nomeação discricionária do Chefe do Executivo.",
+      "Aprovação em processo seletivo simplificado."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "O art. 5º, LVI, da CF estabelece que 'são inadmissíveis, no processo, as provas obtidas por meios ilícitos'. Este princípio é conhecido como:",
+    "options": [
+      "Princípio do contraditório e da ampla defesa.",
+      "Princípio da presunção de inocência.",
+      "Princípio da publicidade.",
+      "Princípio da moralidade.",
+      "Princípio da exclusão ou vedação da prova ilícita."
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "De acordo com o art. 37, XXI, da CF, as obras, serviços, compras e alienações da administração pública, de modo geral, devem ser contratados mediante:",
+    "options": [
+      "Dispensa de licitação para agilidade.",
+      "Licitação pública que assegure igualdade de condições aos concorrentes.",
+      "Contratação direta com empresas de notória especialização.",
+      "Leilão público administrado por empresa privada.",
+      "Concurso de projetos para seleção técnica."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Conforme o art. 5º, LV, da Constituição, são direitos assegurados aos litigantes em processo judicial ou administrativo e aos acusados em geral:",
+    "options": [
+      "O sigilo processual e a decisão sumária.",
+      "O contraditório e a ampla defesa.",
+      "A presunção de culpa e a defesa técnica facultativa.",
+      "A isenção de custas e honorários advocatícios.",
+      "A execução imediata da sentença."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Segundo o art. 144, §4º, da CF, às polícias civis, dirigidas por delegados de carreira, incumbem as funções de polícia judiciária e a apuração de infrações penais, exceto:",
+    "options": [
+      "As infrações de menor potencial ofensivo.",
+      "As infrações de competência da Justiça Federal.",
+      "As infrações militares.",
+      "As infrações eleitorais.",
+      "As infrações ambientais."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "O art. 37, XV, da CF estabelece que os vencimentos dos cargos públicos são irredutíveis. Qual das situações abaixo constitui uma exceção a essa regra?",
+    "options": [
+      "Instituição de contribuição previdenciária dos servidores.",
+      "Aplicação de penalidade disciplinar de suspensão.",
+      "Decisão administrativa de economia de gastos.",
+      "Descontos por falta injustificada ao serviço.",
+      "A incidência de Imposto de Renda na fonte."
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Conforme o art. 136 da CF, o estado de defesa pode ser decretado pelo Presidente da República para preservar a ordem pública ameaçada por grave e iminente instabilidade institucional. Qual o prazo máximo inicial de duração?",
+    "options": [
+      "10 dias.",
+      "15 dias.",
+      "30 dias.",
+      "60 dias.",
+      "90 dias."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "De acordo com o art. 5º, LXXIII, da CF, a ação popular pode ser proposta por qualquer cidadão para anular ato lesivo ao patrimônio público. O autor, salvo comprovada má-fé, está isento de:",
+    "options": [
+      "Apresentar documentos de identificação.",
+      "Cumprir prazos processuais.",
+      "Custas judiciais e do ônus da sucumbência.",
+      "Assistência de advogado.",
+      "Produzir provas iniciais."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Segundo o art. 37, §4º, da CF, os atos de improbidade administrativa importarão, entre outras sanções:",
+    "options": [
+      "Apenas multa pecuniária.",
+      "Advertência escrita e suspensão por 30 dias.",
+      "Suspensão dos direitos políticos, perda da função pública, indisponibilidade de bens e ressarcimento ao erário.",
+      "Proibição de contratar com o Poder Público por 5 anos.",
+      "Declaração de inelegibilidade por 8 anos."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Nos termos do art. 137 da CF, o estado de sítio pode ser decretado nos casos de:",
+    "options": [
+      "Greve geral no serviço público.",
+      "Comoção grave de repercussão nacional ou declaração de estado de guerra.",
+      "Desastre natural em um único município.",
+      "Grave crise econômica com inflação alta.",
+      "Pandemia de saúde pública."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Conforme o art. 5º, XXXV, da CF, 'a lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito'. Este dispositivo consagra o princípio:",
+    "options": [
+      "Da separação dos Poderes.",
+      "Da inafastabilidade da jurisdição.",
+      "Da legalidade.",
+      "Da irretroatividade da lei.",
+      "Da isonomia."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "De acordo com o art. 144, caput, da CF, a segurança pública é exercida para a preservação da ordem pública e da incolumidade das pessoas. Ela é um dever do Estado e:",
+    "options": [
+      "Responsabilidade exclusiva das polícias.",
+      "Direito e responsabilidade de todos.",
+      "Atribuição privativa das Forças Armadas.",
+      "Competência exclusiva do Poder Executivo federal.",
+      "Função delegável a empresas de segurança privada."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "O art. 37, XVI, da CF, veda a acumulação remunerada de cargos públicos. Uma das exceções previstas, quando houver compatibilidade de horários, é a acumulação de:",
+    "options": [
+      "Dois cargos de juiz.",
+      "Dois cargos de diretor em autarquias.",
+      "Dois cargos de professor.",
+      "Um cargo de policial militar e um de agente administrativo.",
+      "Um cargo de deputado estadual e um de secretário municipal."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Conforme o art. 5º, LXI, da CF, ninguém será preso senão em flagrante delito ou por ordem escrita e fundamentada de autoridade judiciária competente. Esta regra sofre exceção nos casos de:",
+    "options": [
+      "Crimes hediondos.",
+      "Prisão preventiva decretada pelo Ministério Público.",
+      "Trasgressão militar ou crime propriamente militar, definidos em lei.",
+      "Sindicados por crimes contra a administração pública.",
+      "Réus reveles em ação penal."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "De acordo com o art. 37, I, da CF, os cargos, empregos e funções públicas são acessíveis:",
+    "options": [
+      "Apenas a brasileiros natos.",
+      "Aos brasileiros que preencham os requisitos legais e, na forma da lei, a estrangeiros.",
+      "Exclusivamente a quem tenha prestado concurso público.",
+      "A qualquer pessoa, independentemente de qualificação.",
+      "A brasileiros e estrangeiros residentes há mais de 10 anos no país."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Nos termos do art. 139 da CF, durante o estado de sítio decretado por comoção grave, pode ser determinada, entre outras medidas:",
+    "options": [
+      "Expulsão sumária de estrangeiros.",
+      "Prisão perpétua para crimes contra a segurança nacional.",
+      "Obrigação de permanência em localidade determinada.",
+      "Suspensão do direito de propriedade.",
+      "Censura prévia a livros e jornais sem limites."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "O art. 5º, LVII, da CF estabelece que 'ninguém será considerado culpado até o trânsito em julgado de sentença penal condenatória'. Este é o princípio da:",
+    "options": [
+      "Culpabilidade.",
+      "Presunção de inocência ou não culpabilidade.",
+      "Ampla defesa.",
+      "Individualização da pena.",
+      "Legalidade penal."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Conforme o art. 37, §6º, da CF, as pessoas jurídicas de direito público e as prestadoras de serviços públicos responderão por danos que seus agentes causarem a terceiros. Isso consagra a teoria:",
+    "options": [
+      "Do risco integral.",
+      "Da responsabilidade subjetiva do Estado.",
+      "Do fato do príncipe.",
+      "Da responsabilidade objetiva do Estado.",
+      "Da culpa exclusiva da vítima."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Segundo o art. 144, §5º, da CF, às polícias militares cabem a polícia ostensiva e a preservação da ordem pública. Elas são forças auxiliares e reserva de qual instituição?",
+    "options": [
+      "Da Polícia Federal.",
+      "Do Exército.",
+      "Da Marinha do Brasil.",
+      "Do Poder Judiciário Estadual.",
+      "Do Ministério da Justiça."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "De acordo com o art. 136, §1º, II, da CF, durante o estado de defesa, pode ser determinada, em caso de calamidade pública:",
+    "options": [
+      "A suspensão do direito de votar e ser votado.",
+      "A intervenção em empresas privadas.",
+      "A ocupação e uso temporário de bens e serviços públicos.",
+      "O fechamento temporário do Poder Legislativo.",
+      "A restrição ao direito de herança."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "O art. 5º, LXXIX, da CF, assegura, nos termos da lei, o direito à proteção dos dados pessoais. Este direito se aplica:",
+    "options": [
+      "Apenas nos meios físicos e arquivos públicos.",
+      "Inclusive nos meios digitais.",
+      "Somente para dados de servidores públicos.",
+      "Exceto para fins de investigação criminal.",
+      "Apenas para brasileiros natos."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Conforme o art. 37, caput, a administração pública de qualquer dos Poderes deve obedecer, entre outros, ao princípio da eficiência, que se relaciona com:",
+    "options": [
+      "A obrigatoriedade de publicar todos os atos no Diário Oficial.",
+      "A necessidade de agir estritamente conforme a lei escrita.",
+      "A obtenção do melhor resultado possível com os recursos disponíveis.",
+      "A isenção e neutralidade do agente público.",
+      "A conduta pautada pela ética e probidade."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Nos termos do art. 5º, XLII, da Constituição, a prática do racismo constitui crime:",
+    "options": [
+      "Afiançável e prescritível.",
+      "Inafiançável e imprescritível.",
+      "Sujeito apenas a pena de multa.",
+      "De ação penal privada.",
+      "De competência da Justiça Militar."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "De acordo com o art. 144, §8º, da CF, os Municípios poderão constituir guardas municipais com a finalidade principal de:",
+    "options": [
+      "Exercer a polícia judiciária municipal.",
+      "Realizar prisões por flagrante delito.",
+      "Proteger seus bens, serviços e instalações.",
+      "Substituir a polícia militar na segurança das ruas.",
+      "Investigar crimes de competência da justiça estadual."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Segundo o art. 37, XI, da CF, a remuneração dos servidores públicos não pode exceder o subsídio mensal dos Ministros do Supremo Tribunal Federal. Este limite é conhecido como:",
+    "options": [
+      "Teto salarial do funcionalismo.",
+      "Piso nacional da administração pública.",
+      "Isonomia remuneratória constitucional.",
+      "Princípio da proporcionalidade.",
+      "Vedação ao enriquecimento ilícito."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Conforme o art. 5º, LXXVII, da CF, são gratuitas as ações de:",
+    "options": [
+      "Habeas corpus, mandado de segurança e ação civil pública.",
+      "Habeas corpus, habeas data e, na forma da lei, os atos necessários ao exercício da cidadania.",
+      "Ação popular, mandado de injunção e reclamação trabalhista.",
+      "Apenas o habeas corpus para qualquer pessoa.",
+      "Recurso especial e recurso extraordinário para reconhecidamente pobres."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "De acordo com o art. 37, VII, da CF, o direito de greve dos servidores públicos:",
+    "options": [
+      "É absoluto e não pode ser restringido.",
+      "Será exercido nos termos e nos limites definidos em lei específica.",
+      "É vedado, em qualquer hipótese.",
+      "É permitido apenas para servidores de carreiras operacionais.",
+      "Depende de autorização prévia do Poder Judiciário."
+    ],
+    "correctAnswer": 1
+  }
+]
