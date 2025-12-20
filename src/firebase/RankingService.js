@@ -25,7 +25,7 @@ export const useLiveLeaderboard = (currentQuestionIndex) => {
     const unsub = onValue(answersRef, (snapshot) => {
       const all = snapshot.val() || {};
       const lastQ = Math.min(currentQuestionIndex, questions.length - 1);
-      const totals = {}; // clientId -> {name,email,phone,correct,answered,points,lastTs}
+      const totals = {}; // clientId -> {name,email,phone,correct,answered,points,lastTs,totalResponseMs,avgResponseMs,responseCount}
 
       for (let q = 0; q <= lastQ; q++) {
         const byClient = all[q] || {};
@@ -41,11 +41,26 @@ export const useLiveLeaderboard = (currentQuestionIndex) => {
               answered: 0,
               points: 0,
               lastTs: 0,
+              totalResponseMs: 0,
+              responseCount: 0,
+              avgResponseMs: null,
             };
           }
           const t = totals[clientId];
           t.answered += 1;
           if (typeof ans.ts === 'number') t.lastTs = Math.max(t.lastTs, ans.ts);
+
+          if (
+            typeof ans.timerDuration === 'number' &&
+            ans.timerDuration > 0 &&
+            typeof ans.timeLeft === 'number' &&
+            ans.timeLeft >= 0
+          ) {
+            const resp = Math.max(0, ans.timerDuration - ans.timeLeft);
+            t.totalResponseMs += resp * 1000;
+            t.responseCount += 1;
+          }
+
           if (typeof ans.optionIndex === 'number' && questions[q] && ans.optionIndex === questions[q].correctAnswer) {
             t.correct += 1;
             const dur = (typeof ans.timerDuration === 'number' && ans.timerDuration > 0) ? ans.timerDuration : 20;
@@ -57,15 +72,20 @@ export const useLiveLeaderboard = (currentQuestionIndex) => {
       }
 
       const released = lastQ + 1; // número de perguntas liberadas
-      const list = Object.values(totals).map((t) => ({
-        ...t,
-        percentage: released > 0 ? (t.correct / released) * 100 : 0,
-        points: Number(t.points.toFixed(2)),
-      }))
+      const list = Object.values(totals).map((t) => {
+        const avg = t.responseCount > 0 ? (t.totalResponseMs / t.responseCount) : null;
+        return {
+          ...t,
+          avgResponseMs: avg,
+          percentage: released > 0 ? (t.correct / released) * 100 : 0,
+          points: Number(t.points.toFixed(2)),
+        };
+      })
       .sort((a, b) => {
         if (b.points !== a.points) return b.points - a.points;
         if (b.correct !== a.correct) return b.correct - a.correct;
         if (b.percentage !== a.percentage) return b.percentage - a.percentage;
+        if ((a.totalResponseMs || 0) !== (b.totalResponseMs || 0)) return (a.totalResponseMs || 0) - (b.totalResponseMs || 0);
         return (a.lastTs || 0) - (b.lastTs || 0);
       });
 

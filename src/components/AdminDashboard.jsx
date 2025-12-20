@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useRanking, useGameControl, useParticipants, useRoundStats, useLiveLeaderboard } from "../firebase/RankingService";
+import questions from '../data/questions.json';
 
 const AdminDashboard = () => {
   const { ranking, loading } = useRanking();
@@ -7,7 +8,9 @@ const AdminDashboard = () => {
   const { currentQuestion, roundOpen, gameStarted, loading: loadingCtrl, incrementCurrentQuestion, resetControl, openRound, closeRound, startGame, stopGame, startNewGame } = useGameControl();
   const roundCounts = useRoundStats(currentQuestion);
   const liveBoard = useLiveLeaderboard(currentQuestion);
+  const finalBoard = useLiveLeaderboard(Math.max(0, (questions?.length || 1) - 1));
   const [showBoard, setShowBoard] = useState(false);
+  const [showFinal, setShowFinal] = useState(false);
   const [tip, setTip] = useState('');
 
   const exportParticipantsCSV = () => {
@@ -26,6 +29,42 @@ const AdminDashboard = () => {
     const a = document.createElement('a');
     a.href = url;
     a.download = `participantes-${new Date().toISOString().slice(0,19)}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  };
+
+  const formatMs = (ms) => {
+    const v = Number(ms || 0);
+    if (!Number.isFinite(v) || v <= 0) return '0:00';
+    const s = Math.floor(v / 1000);
+    const mm = Math.floor(s / 60);
+    const ss = String(s % 60).padStart(2, '0');
+    return `${mm}:${ss}`;
+  };
+
+  const exportFinalCSV = () => {
+    const rows = [
+      ['Posição', 'Nome', 'Email', 'Telefone', 'Pontos', 'Acertos', 'Perguntas', 'Tempo total (mm:ss)', 'Tempo total (ms)'],
+      ...((finalBoard || []).map((p, idx) => [
+        `${idx + 1}`,
+        p.name || '',
+        p.email || '',
+        p.phone || '',
+        Number(p.points || 0).toFixed(2),
+        String(p.correct ?? ''),
+        String((questions?.length || 0)),
+        formatMs(p.totalResponseMs || 0),
+        String(p.totalResponseMs || 0),
+      ]))
+    ];
+    const csv = rows.map(r => r.map(field => `"${String(field).replace(/"/g, '""')}"`).join(',')).join('\n');
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `resultado-final-${new Date().toISOString().slice(0,19)}.csv`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -152,6 +191,13 @@ const AdminDashboard = () => {
             title="Exibir/ocultar classificação ao vivo"
           >
             🏆 Placar ao Vivo
+          </button>
+          <button
+            onClick={() => setShowFinal((v) => !v)}
+            style={btnPrimary}
+            title="Exibir resultado final (ranking com tempo total)"
+          >
+            🏁 Resultado Final
           </button>
         </div>
       </header>
@@ -310,6 +356,64 @@ const AdminDashboard = () => {
             </div>
             <div style={{ marginTop: 10, color: '#c8e6c9', fontSize: 12 }}>
               Ordenação: Pontos (1 + bônus de tempo por acerto), depois Acertos, depois %, depois quem respondeu mais cedo.
+            </div>
+          </div>
+        </div>
+      )}
+
+      {showFinal && (
+        <div style={overlayStyle} onClick={() => setShowFinal(false)}>
+          <div style={panelStyle} onClick={(e) => e.stopPropagation()}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16 }}>
+              <h2 style={{ margin: 0, color: '#e8f5e9', fontSize: 22 }}>Resultado Final</h2>
+              <div style={{ display: 'flex', gap: 8 }}>
+                <button onClick={exportFinalCSV} style={btnStyle} title="Exportar CSV">⬇️ Exportar CSV</button>
+                <button onClick={() => setShowFinal(false)} style={btnPrimary}>✕ Fechar</button>
+              </div>
+            </div>
+
+            <div style={{ marginBottom: 10, color: '#c8e6c9', fontSize: 12 }}>
+              Pontos = 1 + bônus de tempo por acerto. Tempo total = soma do tempo gasto em cada resposta (menor é melhor no desempate).
+            </div>
+
+            <div style={{
+              display: 'grid',
+              gridTemplateColumns: '70px 1fr 140px 140px 160px',
+              padding: '14px 18px',
+              background: 'rgba(255,255,255,0.08)',
+              color: '#e8f5e9',
+              fontWeight: 700,
+              borderRadius: 10,
+              fontSize: 15
+            }}>
+              <div>#</div>
+              <div>Nome</div>
+              <div style={{ textAlign: 'right' }}>Acertos</div>
+              <div style={{ textAlign: 'right' }}>Pontos</div>
+              <div style={{ textAlign: 'right' }}>Tempo total</div>
+            </div>
+
+            <div style={{ maxHeight: '65vh', overflowY: 'auto' }}>
+              {finalBoard && finalBoard.length > 0 ? (
+                finalBoard.map((p, index) => (
+                  <div key={p.clientId || index} style={{
+                    display: 'grid',
+                    gridTemplateColumns: '70px 1fr 140px 140px 160px',
+                    padding: '12px 18px',
+                    borderTop: '1px solid rgba(255,255,255,0.12)',
+                    color: index < 3 ? '#e8f5e9' : '#d5ecd6',
+                    background: index < 3 ? 'rgba(46,125,50,0.25)' : 'rgba(255,255,255,0.04)',
+                  }}>
+                    <div style={{ fontWeight: 700 }}>{index + 1}º</div>
+                    <div style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{p.name || '(Sem nome)'}</div>
+                    <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{p.correct}</div>
+                    <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums', fontWeight: 700 }}>{Number(p.points || 0).toFixed(2)}</div>
+                    <div style={{ textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{formatMs(p.totalResponseMs || 0)}</div>
+                  </div>
+                ))
+              ) : (
+                <div style={{ padding: 16, color: '#c8e6c9' }}>Sem respostas ainda.</div>
+              )}
             </div>
           </div>
         </div>
