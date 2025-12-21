@@ -1,342 +1,331 @@
 [
   {
-    "question": "Conforme o inciso XI do art. 5º da CF, a casa é asilo inviolável do indivíduo. Em quais das seguintes hipóteses é permitida a entrada sem consentimento do morador?",
+    "question": "De acordo com o art. 121 do CP, o homicídio simples é considerado crime:",
     "options": [
-      "Apenas em caso de flagrante delito.",
-      "Em caso de flagrante delito, desastre, para prestar socorro ou, durante o dia, por determinação judicial.",
-      "Durante o dia, por qualquer agente de segurança pública, sem necessidade de ordem judicial.",
-      "A qualquer hora do dia ou da noite, desde que haja suspeita fundada de prática criminosa.",
-      "Apenas com ordem judicial, independentemente do horário."
+      "Culposo contra a vida, punível com detenção.",
+      "Doloso contra a vida, punível com reclusão.",
+      "Praticado apenas com qualificadoras específicas.",
+      "De ação penal privada e condicionada à representação.",
+      "Apenas quando há motivo de relevante valor social."
     ],
     "correctAnswer": 1
   },
   {
-    "question": "De acordo com o art. 5º, XLIII, da Constituição Federal, são considerados crimes inafiançáveis e insuscetíveis de graça ou anistia, EXCETO:",
+    "question": "Conforme o art. 121-A do CP, o feminicídio se caracteriza quando há:",
     "options": [
-      "A prática da tortura.",
-      "O tráfico ilícito de entorpecentes e drogas afins.",
-      "O terrorismo.",
-      "Os crimes hediondos.",
-      "O homicídio simples culposo."
+      "Homicídio de qualquer pessoa do sexo feminino, independentemente das razões.",
+      "Homicídio de mulher por razões da condição do sexo feminino.",
+      "Homicídio praticado exclusivamente no âmbito da violência doméstica.",
+      "Homicídio culposo contra mulher grávida.",
+      "Homicídio com emprego de meio cruel contra pessoa do sexo feminino."
     ],
-    "correctAnswer": 4
+    "correctAnswer": 1
   },
   {
-    "question": "Segundo o inciso LXVII do art. 5º da CF, a prisão civil por dívida é permitida em qual situação?",
+    "question": "Segundo o art. 14 do CP, a tentativa ocorre quando:",
     "options": [
-      "Do responsável pelo inadimplemento de qualquer obrigação contratual.",
-      "Do depositário infiel em qualquer caso.",
-      "Do responsável pelo inadimplemento voluntário e inescusável de obrigação alimentícia.",
-      "Do devedor de tributos federais.",
-      "Do sócio de empresa em recuperação judicial."
+      "O agente apenas cogita a prática do crime sem iniciar a execução.",
+      "Iniciada a execução, o crime não se consuma por circunstâncias alheias à vontade do agente.",
+      "O agente voluntariamente desiste de prosseguir na execução.",
+      "O crime é impossível pela absoluta impropriedade do objeto.",
+      "O agente impede voluntariamente a produção do resultado."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Nos termos do art. 18 do CP, diferencia-se crime doloso de culposo pelo:",
+    "options": [
+      "Tipo de pena cominada, sendo sempre mais grave o doloso.",
+      "Elemento subjetivo, relacionado à vontade ou à culpa na produção do resultado.",
+      "Momento da consumação, mais rápida no crime doloso.",
+      "Natureza da ação penal, pública no doloso e privada no culposo.",
+      "Presença ou ausência de qualificadoras no tipo penal."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Conforme o art. 13, §2º do CP, a omissão é penalmente relevante quando:",
+    "options": [
+      "O omitente podia agir, mas não tinha o dever legal de fazê-lo.",
+      "O omitente devia e podia agir para evitar o resultado.",
+      "Há apenas um dever moral de agir, sem previsão legal.",
+      "O resultado ocorreria independentemente da ação do omitente.",
+      "A omissão decorre de caso fortuito ou força maior."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "De acordo com o art. 23 do CP, não há crime quando o agente pratica o fato em estado de necessidade. Para sua configuração, é necessário que:",
+    "options": [
+      "O agente tenha provocado o perigo por sua vontade.",
+      "Haja perigo atual a direito próprio ou alheio, que não se podia de outro modo evitar.",
+      "O sacrifício do direito ameaçado seja sempre razoável e exigível.",
+      "O agente tenha dever legal de enfrentar o perigo.",
+      "O perigo seja futuro e hipotético."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Conforme o art. 26 do CP, a inimputabilidade por doença mental ou desenvolvimento mental incompleto exige que o agente seja:",
+    "options": [
+      "Parcialmente incapaz de entender o caráter ilícito do fato.",
+      "Inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
+      "Apenas portador de transtorno de personalidade sem comprometimento cognitivo.",
+      "Submetido a tratamento psiquiátrico anterior ao fato.",
+      "Considerado incapaz apenas para os atos da vida civil."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Segundo o art. 28 do CP, a embriaguez voluntária:",
+    "options": [
+      "Exclui totalmente a imputabilidade penal.",
+      "Reduz a pena obrigatoriamente pela metade.",
+      "Não exclui a imputabilidade penal.",
+      "Caracteriza sempre causa de diminuição de pena.",
+      "Transforma crime doloso em culposo."
     ],
     "correctAnswer": 2
   },
   {
-    "question": "Conforme o princípio da publicidade (art. 37, caput), os atos da administração pública devem ser divulgados. Qual é a principal finalidade dessa publicidade?",
+    "question": "Nos termos do art. 122 do CP, induzir ou instigar alguém a suicidar-se é crime:",
     "options": [
-      "Gerar receita para o Estado por meio da cobrança de taxas.",
-      "Permitir o controle da administração pela sociedade.",
-      "Substituir a necessidade de formalização escrita dos atos.",
-      "Impedir o acesso de terceiros a informações pessoais.",
-      "Restringir o conhecimento dos atos a um círculo de servidores."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Nos termos do art. 37, II, da CF, a investidura em cargo ou emprego público depende de:",
-    "options": [
-      "Aprovação prévia em concurso público de provas ou de provas e títulos.",
-      "Indicação política e aprovação em avaliação de currículo.",
-      "Experiência prévia no serviço público como comissionado.",
-      "Nomeação discricionária do Chefe do Executivo.",
-      "Aprovação em processo seletivo simplificado."
-    ],
-    "correctAnswer": 0
-  },
-  {
-    "question": "O art. 5º, LVI, da CF estabelece que 'são inadmissíveis, no processo, as provas obtidas por meios ilícitos'. Este princípio é conhecido como:",
-    "options": [
-      "Princípio do contraditório e da ampla defesa.",
-      "Princípio da presunção de inocência.",
-      "Princípio da publicidade.",
-      "Princípio da moralidade.",
-      "Princípio da exclusão ou vedação da prova ilícita."
-    ],
-    "correctAnswer": 4
-  },
-  {
-    "question": "De acordo com o art. 37, XXI, da CF, as obras, serviços, compras e alienações da administração pública, de modo geral, devem ser contratados mediante:",
-    "options": [
-      "Dispensa de licitação para agilidade.",
-      "Licitação pública que assegure igualdade de condições aos concorrentes.",
-      "Contratação direta com empresas de notória especialização.",
-      "Leilão público administrado por empresa privada.",
-      "Concurso de projetos para seleção técnica."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Conforme o art. 5º, LV, da Constituição, são direitos assegurados aos litigantes em processo judicial ou administrativo e aos acusados em geral:",
-    "options": [
-      "O sigilo processual e a decisão sumária.",
-      "O contraditório e a ampla defesa.",
-      "A presunção de culpa e a defesa técnica facultativa.",
-      "A isenção de custas e honorários advocatícios.",
-      "A execução imediata da sentença."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Segundo o art. 144, §4º, da CF, às polícias civis, dirigidas por delegados de carreira, incumbem as funções de polícia judiciária e a apuração de infrações penais, exceto:",
-    "options": [
-      "As infrações de menor potencial ofensivo.",
-      "As infrações de competência da Justiça Federal.",
-      "As infrações militares.",
-      "As infrações eleitorais.",
-      "As infrações ambientais."
+      "Impunível, por considerar-se ato de liberdade da vítima.",
+      "De ação penal privada e de menor potencial ofensivo.",
+      "Contra a vida, punível com pena de reclusão.",
+      "Apenas quando o suicídio se consuma.",
+      "Equiparado ao homicídio privilegiado."
     ],
     "correctAnswer": 2
   },
   {
-    "question": "O art. 37, XV, da CF estabelece que os vencimentos dos cargos públicos são irredutíveis. Qual das situações abaixo constitui uma exceção a essa regra?",
+    "question": "Conforme o art. 128, II do CP, não se pune o aborto quando:",
     "options": [
-      "Instituição de contribuição previdenciária dos servidores.",
-      "Aplicação de penalidade disciplinar de suspensão.",
-      "Decisão administrativa de economia de gastos.",
-      "Descontos por falta injustificada ao serviço.",
-      "A incidência de Imposto de Renda na fonte."
-    ],
-    "correctAnswer": 4
-  },
-  {
-    "question": "Conforme o art. 136 da CF, o estado de defesa pode ser decretado pelo Presidente da República para preservar a ordem pública ameaçada por grave e iminente instabilidade institucional. Qual o prazo máximo inicial de duração?",
-    "options": [
-      "10 dias.",
-      "15 dias.",
-      "30 dias.",
-      "60 dias.",
-      "90 dias."
+      "A gestante é menor de 18 anos e não tem apoio familiar.",
+      "Há risco à saúde psicológica da gestante.",
+      "A gravidez resulta de estupro e há consentimento da gestante.",
+      "O feto apresenta má-formação congênita grave.",
+      "A gestante não possui condições econômicas para criar a criança."
     ],
     "correctAnswer": 2
   },
   {
-    "question": "De acordo com o art. 5º, LXXIII, da CF, a ação popular pode ser proposta por qualquer cidadão para anular ato lesivo ao patrimônio público. O autor, salvo comprovada má-fé, está isento de:",
+    "question": "De acordo com o art. 129, §9º do CP, a lesão corporal praticada no contexto de violência doméstica:",
     "options": [
-      "Apresentar documentos de identificação.",
-      "Cumprir prazos processuais.",
-      "Custas judiciais e do ônus da sucumbência.",
-      "Assistência de advogado.",
-      "Produzir provas iniciais."
+      "Tem pena atenuada em relação à lesão simples.",
+      "Configura crime de menor potencial ofensivo.",
+      "Tem pena aumentada em relação à lesão corporal simples.",
+      "Só se configura se houver violência física grave.",
+      "Depende de representação da vítima para ação penal."
     ],
     "correctAnswer": 2
   },
   {
-    "question": "Segundo o art. 37, §4º, da CF, os atos de improbidade administrativa importarão, entre outras sanções:",
+    "question": "Segundo o art. 135 do CP, a omissão de socorro exige que o agente:",
     "options": [
-      "Apenas multa pecuniária.",
-      "Advertência escrita e suspensão por 30 dias.",
-      "Suspensão dos direitos políticos, perda da função pública, indisponibilidade de bens e ressarcimento ao erário.",
-      "Proibição de contratar com o Poder Público por 5 anos.",
-      "Declaração de inelegibilidade por 8 anos."
+      "Tenha provocado a situação de perigo.",
+      "Seja parente ou responsável legal pela vítima.",
+      "Deixe de prestar assistência quando possível fazê-lo sem risco pessoal.",
+      "Seja profissional da saúde em exercício de função.",
+      "Tenha ciência exata da identidade da pessoa em perigo."
     ],
     "correctAnswer": 2
   },
   {
-    "question": "Nos termos do art. 137 da CF, o estado de sítio pode ser decretado nos casos de:",
+    "question": "Conforme o art. 138 do CP, a calúnia se diferencia da injúria e da difamação por:",
     "options": [
-      "Greve geral no serviço público.",
-      "Comoção grave de repercussão nacional ou declaração de estado de guerra.",
-      "Desastre natural em um único município.",
-      "Grave crise econômica com inflação alta.",
-      "Pandemia de saúde pública."
+      "Ser sempre crime de ação penal pública incondicionada.",
+      "Imputar falsamente a alguém fato definido como crime.",
+      "Ofender apenas a honra subjetiva da vítima.",
+      "Requerer dolo específico de causar prejuízo patrimonial.",
+      "Ter pena mais branda que os demais crimes contra a honra."
     ],
     "correctAnswer": 1
   },
   {
-    "question": "Conforme o art. 5º, XXXV, da CF, 'a lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito'. Este dispositivo consagra o princípio:",
+    "question": "De acordo com o art. 146 do CP, o constrangimento ilegal pode ser praticado:",
     "options": [
-      "Da separação dos Poderes.",
-      "Da inafastabilidade da jurisdição.",
-      "Da legalidade.",
-      "Da irretroatividade da lei.",
-      "Da isonomia."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "De acordo com o art. 144, caput, da CF, a segurança pública é exercida para a preservação da ordem pública e da incolumidade das pessoas. Ela é um dever do Estado e:",
-    "options": [
-      "Responsabilidade exclusiva das polícias.",
-      "Direito e responsabilidade de todos.",
-      "Atribuição privativa das Forças Armadas.",
-      "Competência exclusiva do Poder Executivo federal.",
-      "Função delegável a empresas de segurança privada."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "O art. 37, XVI, da CF, veda a acumulação remunerada de cargos públicos. Uma das exceções previstas, quando houver compatibilidade de horários, é a acumulação de:",
-    "options": [
-      "Dois cargos de juiz.",
-      "Dois cargos de diretor em autarquias.",
-      "Dois cargos de professor.",
-      "Um cargo de policial militar e um de agente administrativo.",
-      "Um cargo de deputado estadual e um de secretário municipal."
+      "Apenas mediante violência física direta.",
+      "Somente contra funcionário público no exercício da função.",
+      "Mediante violência, grave ameaça ou redução da capacidade de resistência.",
+      "Exclusivamente para obter vantagem econômica indevida.",
+      "Apenas quando há sequestro ou cárcere privado associado."
     ],
     "correctAnswer": 2
   },
   {
-    "question": "Conforme o art. 5º, LXI, da CF, ninguém será preso senão em flagrante delito ou por ordem escrita e fundamentada de autoridade judiciária competente. Esta regra sofre exceção nos casos de:",
+    "question": "Nos termos do art. 147-A do CP, a perseguição (stalking) caracteriza-se por:",
     "options": [
-      "Crimes hediondos.",
-      "Prisão preventiva decretada pelo Ministério Público.",
-      "Trasgressão militar ou crime propriamente militar, definidos em lei.",
-      "Sindicados por crimes contra a administração pública.",
-      "Réus reveles em ação penal."
-    ],
-    "correctAnswer": 2
-  },
-  {
-    "question": "De acordo com o art. 37, I, da CF, os cargos, empregos e funções públicas são acessíveis:",
-    "options": [
-      "Apenas a brasileiros natos.",
-      "Aos brasileiros que preencham os requisitos legais e, na forma da lei, a estrangeiros.",
-      "Exclusivamente a quem tenha prestado concurso público.",
-      "A qualquer pessoa, independentemente de qualificação.",
-      "A brasileiros e estrangeiros residentes há mais de 10 anos no país."
+      "Atuação isolada e não repetitiva contra a vítima.",
+      "Conduta reiterada que ameaça a integridade física ou psicológica.",
+      "Apenas monitoramento virtual sem contato pessoal.",
+      "Crime de menor potencial ofensivo punível apenas com multa.",
+      "Conduta exclusivamente praticada por ex-cônjuge ou companheiro."
     ],
     "correctAnswer": 1
   },
   {
-    "question": "Nos termos do art. 139 da CF, durante o estado de sítio decretado por comoção grave, pode ser determinada, entre outras medidas:",
+    "question": "Conforme o art. 148 do CP, o sequestro ou cárcere privado consiste em:",
     "options": [
-      "Expulsão sumária de estrangeiros.",
-      "Prisão perpétua para crimes contra a segurança nacional.",
-      "Obrigação de permanência em localidade determinada.",
-      "Suspensão do direito de propriedade.",
-      "Censura prévia a livros e jornais sem limites."
-    ],
-    "correctAnswer": 2
-  },
-  {
-    "question": "O art. 5º, LVII, da CF estabelece que 'ninguém será considerado culpado até o trânsito em julgado de sentença penal condenatória'. Este é o princípio da:",
-    "options": [
-      "Culpabilidade.",
-      "Presunção de inocência ou não culpabilidade.",
-      "Ampla defesa.",
-      "Individualização da pena.",
-      "Legalidade penal."
+      "Impedir temporariamente a liberdade de locomoção em via pública.",
+      "Privar alguém de sua liberdade, mediante sequestro ou cárcere privado.",
+      "Apenas quando há pedido de resgate em dinheiro.",
+      "Crime que exige, necessariamente, violência física grave.",
+      "Conduta equiparada ao roubo qualificado."
     ],
     "correctAnswer": 1
   },
   {
-    "question": "Conforme o art. 37, §6º, da CF, as pessoas jurídicas de direito público e as prestadoras de serviços públicos responderão por danos que seus agentes causarem a terceiros. Isso consagra a teoria:",
+    "question": "De acordo com o art. 149 do CP, a redução a condição análoga à de escravo inclui:",
     "options": [
-      "Do risco integral.",
-      "Da responsabilidade subjetiva do Estado.",
-      "Do fato do príncipe.",
-      "Da responsabilidade objetiva do Estado.",
-      "Da culpa exclusiva da vítima."
+      "Apenas trabalho forçado sem qualquer remuneração.",
+      "Qualquer relação de trabalho com jornada superior a 8 horas.",
+      "Submissão a trabalhos forçados, jornada exaustiva ou condições degradantes.",
+      "Trabalho doméstico sem carteira assinada.",
+      "Contratação de imigrante em situação irregular."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Segundo o art. 20, §1º do CP, na descriminante putativa:",
+    "options": [
+      "O agente responde por crime doloso, com pena atenuada.",
+      "Há isenção de pena se o erro sobre a situação de fato era inevitável.",
+      "Aplica-se apenas ao erro sobre a pessoa da vítima.",
+      "O agente sempre responde por crime culposo, se previsto.",
+      "Caracteriza erro de tipo que exclui totalmente a punibilidade."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Conforme o art. 15 do CP, na desistência voluntária:",
+    "options": [
+      "O agente responde pela tentativa com pena reduzida.",
+      "O agente responde apenas pelos atos já praticados.",
+      "Há isenção total de pena, independentemente dos atos praticados.",
+      "Aplica-se apenas a crimes cometidos sem violência.",
+      "Exige que o agente impeça totalmente o resultado."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "De acordo com o art. 17 do CP, no crime impossível:",
+    "options": [
+      "Pune-se a tentativa com pena reduzida.",
+      "Não se pune a tentativa por ineficácia absoluta do meio.",
+      "O agente responde por crime culposo, se previsto.",
+      "Aplica-se o princípio da insignificância.",
+      "Caracteriza desistência voluntária presumida."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Segundo o art. 19 do CP, no crime preterdoloso:",
+    "options": [
+      "O agente responde apenas pela conduta inicial dolosa.",
+      "Responde pelo resultado agravador apenas se o causou dolosamente.",
+      "Responde pelo resultado agravador se o causou ao menos culposamente.",
+      "Não há responsabilidade pelo resultado mais grave em nenhuma hipótese.",
+      "Configura concurso formal de crimes."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Conforme o art. 21 do CP, o erro sobre a ilicitude do fato:",
+    "options": [
+      "É sempre inescusável, como o desconhecimento da lei.",
+      "Se inevitável, isenta de pena; se evitável, pode diminuí-la.",
+      "Exclui o dolo, permitindo apenas punição por crime culposo.",
+      "Só é reconhecido quando decorrente de doença mental.",
+      "Caracteriza sempre descriminante putativa."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "De acordo com o art. 22 do CP, na coação irresistível:",
+    "options": [
+      "Responde apenas o agente que pratica o fato sob coação.",
+      "Responde apenas o autor da coação.",
+      "Ambos, agente e coator, respondem solidariamente.",
+      "Há diminuição obrigatória de pena para o agente coagido.",
+      "Caracteriza legítima defesa putativa."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Segundo o art. 24, §1º do CP, não pode alegar estado de necessidade:",
+    "options": [
+      "Quem age para salvar direito de valor superior ao sacrificado.",
+      "Quem tinha o dever legal de enfrentar o perigo.",
+      "Quem provocou culposamente a situação de perigo.",
+      "Quem age para salvar direito alheio, não próprio.",
+      "Quem podia de outro modo evitar o perigo."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Conforme o art. 27 do CP, os menores de 18 anos são:",
+    "options": [
+      "Punidos com penas educativas específicas do CP.",
+      "Penalmente inimputáveis, sujeitos à legislação especial.",
+      "Imputáveis apenas para crimes hediondos.",
+      "Submetidos ao mesmo regime penal dos adultos, com penas reduzidas.",
+      "Considerados relativamente incapazes para todos os efeitos penais."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "De acordo com o art. 33, caput do CP, as penas privativas de liberdade são:",
+    "options": [
+      "Reclusão, detenção e prisão simples.",
+      "Reclusão e detenção, com regimes de cumprimento distintos.",
+      "Apenas reclusão para crimes dolosos.",
+      "Detenção exclusivamente para crimes culposos.",
+      "Reclusão em regime fechado e detenção em regime aberto."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Segundo o art. 44 do CP, as penas restritivas de direitos substituem as privativas de liberdade quando:",
+    "options": [
+      "O crime é hediondo ou equiparado.",
+      "A pena privativa de liberdade é superior a 8 anos.",
+      "O réu é reincidente em crime doloso.",
+      "A pena não superior a 4 anos e o crime não foi violento.",
+      "O crime é cometido com grave ameaça à pessoa."
     ],
     "correctAnswer": 3
   },
   {
-    "question": "Segundo o art. 144, §5º, da CF, às polícias militares cabem a polícia ostensiva e a preservação da ordem pública. Elas são forças auxiliares e reserva de qual instituição?",
+    "question": "Conforme o art. 59 do CP, na dosimetria da pena, o juiz deve considerar:",
     "options": [
-      "Da Polícia Federal.",
-      "Do Exército.",
-      "Da Marinha do Brasil.",
-      "Do Poder Judiciário Estadual.",
-      "Do Ministério da Justiça."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "De acordo com o art. 136, §1º, II, da CF, durante o estado de defesa, pode ser determinada, em caso de calamidade pública:",
-    "options": [
-      "A suspensão do direito de votar e ser votado.",
-      "A intervenção em empresas privadas.",
-      "A ocupação e uso temporário de bens e serviços públicos.",
-      "O fechamento temporário do Poder Legislativo.",
-      "A restrição ao direito de herança."
+      "Apenas a gravidade concreta do fato.",
+      "Apenas os antecedentes do agente.",
+      "Circunstâncias judiciais como culpabilidade e conduta social.",
+      "Exclusivamente o prejuízo causado à vítima.",
+      "Somente a personalidade do agente."
     ],
     "correctAnswer": 2
   },
   {
-    "question": "O art. 5º, LXXIX, da CF, assegura, nos termos da lei, o direito à proteção dos dados pessoais. Este direito se aplica:",
+    "question": "De acordo com o art. 150 do CP, violação de domicílio NÃO ocorre quando:",
     "options": [
-      "Apenas nos meios físicos e arquivos públicos.",
-      "Inclusive nos meios digitais.",
-      "Somente para dados de servidores públicos.",
-      "Exceto para fins de investigação criminal.",
-      "Apenas para brasileiros natos."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Conforme o art. 37, caput, a administração pública de qualquer dos Poderes deve obedecer, entre outros, ao princípio da eficiência, que se relaciona com:",
-    "options": [
-      "A obrigatoriedade de publicar todos os atos no Diário Oficial.",
-      "A necessidade de agir estritamente conforme a lei escrita.",
-      "A obtenção do melhor resultado possível com os recursos disponíveis.",
-      "A isenção e neutralidade do agente público.",
-      "A conduta pautada pela ética e probidade."
+      "A entrada é clandestina ou astuciosa.",
+      "A entrada se dá contra a vontade expressa do morador.",
+      "A entrada é durante o dia para efetuar prisão legal.",
+      "A permanência é contra a vontade tácita do morador.",
+      "Há emprego de violência para entrar no imóvel."
     ],
     "correctAnswer": 2
   },
   {
-    "question": "Nos termos do art. 5º, XLII, da Constituição, a prática do racismo constitui crime:",
+    "question": "Segundo a sistemática do CP, o concurso de pessoas ocorre quando:",
     "options": [
-      "Afiançável e prescritível.",
-      "Inafiançável e imprescritível.",
-      "Sujeito apenas a pena de multa.",
-      "De ação penal privada.",
-      "De competência da Justiça Militar."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "De acordo com o art. 144, §8º, da CF, os Municípios poderão constituir guardas municipais com a finalidade principal de:",
-    "options": [
-      "Exercer a polícia judiciária municipal.",
-      "Realizar prisões por flagrante delito.",
-      "Proteger seus bens, serviços e instalações.",
-      "Substituir a polícia militar na segurança das ruas.",
-      "Investigar crimes de competência da justiça estadual."
-    ],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Segundo o art. 37, XI, da CF, a remuneração dos servidores públicos não pode exceder o subsídio mensal dos Ministros do Supremo Tribunal Federal. Este limite é conhecido como:",
-    "options": [
-      "Teto salarial do funcionalismo.",
-      "Piso nacional da administração pública.",
-      "Isonomia remuneratória constitucional.",
-      "Princípio da proporcionalidade.",
-      "Vedação ao enriquecimento ilícito."
-    ],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Conforme o art. 5º, LXXVII, da CF, são gratuitas as ações de:",
-    "options": [
-      "Habeas corpus, mandado de segurança e ação civil pública.",
-      "Habeas corpus, habeas data e, na forma da lei, os atos necessários ao exercício da cidadania.",
-      "Ação popular, mandado de injunção e reclamação trabalhista.",
-      "Apenas o habeas corpus para qualquer pessoa.",
-      "Recurso especial e recurso extraordinário para reconhecidamente pobres."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "De acordo com o art. 37, VII, da CF, o direito de greve dos servidores públicos:",
-    "options": [
-      "É absoluto e não pode ser restringido.",
-      "Será exercido nos termos e nos limites definidos em lei específica.",
-      "É vedado, em qualquer hipótese.",
-      "É permitido apenas para servidores de carreiras operacionais.",
-      "Depende de autorização prévia do Poder Judiciário."
+      "Dois ou mais agentes, independentemente, cometem crimes semelhantes.",
+      "Há pluralidade de agentes concorrendo para a prática do mesmo crime.",
+      "Um agente pratica vários crimes em sequência temporal.",
+      "Há vítimas múltiplas em crime praticado por único agente.",
+      "O crime é praticado por organização criminosa estruturada."
     ],
     "correctAnswer": 1
   }

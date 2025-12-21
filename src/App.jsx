@@ -7,6 +7,7 @@ import WelcomeScreen from './components/WelcomeScreen';
 
 
 const TIMER_DURATION = 240;
+const REVIEW_SECONDS = 15;
 
 // Sons alternativos como fallback (caso os arquivos locais não sejam encontrados)
 const DEFAULT_SOUNDS = {
@@ -29,6 +30,7 @@ function App() {
   const [showContinue, setShowContinue] = useState(false); // Substitui o isPaused
   const [lastPointsEarned, setLastPointsEarned] = useState(null); // feedback da rodada
   const [justOpened, setJustOpened] = useState(false); // evita hover/click instantâneo ao abrir
+  const [reviewLeft, setReviewLeft] = useState(null); // contagem regressiva (segundos) para ver a resposta correta
   
   const question = questions[questionIndex] || null;
 
@@ -89,12 +91,32 @@ function App() {
       setIsDisabled(false);
       setShowContinue(false);
       setLastPointsEarned(null);
+      setReviewLeft(null);
       // Janela curta para evitar realce/hover ao abrir nova pergunta
       setJustOpened(true);
       const t = setTimeout(() => setJustOpened(false), 350);
       return () => clearTimeout(t);
     }
   }, [questionIndex, question, playerReady, isFinished]);
+
+  // Contagem regressiva da revisão antes de avançar
+  useEffect(() => {
+    if (!playerReady) return;
+    if (reviewLeft === null) return;
+
+    if (reviewLeft <= 0) {
+      setShowContinue(false);
+      setReviewLeft(null);
+      goNextQuestion();
+      return;
+    }
+
+    const t = setTimeout(() => {
+      setReviewLeft((prev) => (typeof prev === 'number' ? prev - 1 : null));
+    }, 1000);
+
+    return () => clearTimeout(t);
+  }, [reviewLeft, playerReady]);
 
   // ao trocar de pergunta, sempre limpa a seleção para evitar "marcada" de rodada anterior
   useEffect(() => {
@@ -110,6 +132,12 @@ function App() {
     setQuestionIndex((prev) => prev + 1);
   };
 
+  const beginReview = () => {
+    setIsDisabled(true);
+    setShowContinue(true);
+    setReviewLeft(REVIEW_SECONDS);
+  };
+
   // Quando o tempo acabar, o candidato perde a questão e avança automaticamente
   useEffect(() => {
     if (!playerReady) return;
@@ -119,19 +147,14 @@ function App() {
     if (lastPointsEarned !== null) return;
 
     setLastPointsEarned(0);
-    const t = setTimeout(() => {
-      setShowContinue(false);
-      goNextQuestion();
-    }, 900);
-    return () => clearTimeout(t);
+    beginReview();
   }, [timeLeft, playerReady, isFinished, question, lastPointsEarned]);
 
   const handleOptionClick = (index) => {
     if (isDisabled || !question || isFinished) return;
 
     setSelectedOption(index);
-    setIsDisabled(true);
-    setShowContinue(true);
+    beginReview();
 
     // Envia a resposta para o placar da rodada ao vivo (com tempo para bônus)
     try { submitAnswer({ questionIndex, optionIndex: index, timeLeft, timerDuration: TIMER_DURATION }); } catch {}
@@ -145,12 +168,6 @@ function App() {
     setAnsweredCount((prev) => prev + 1);
     if (isCorrect) setCorrectCount((prev) => prev + 1);
     setLastPointsEarned(pointsEarned);
-
-    // Avança automaticamente após responder
-    setTimeout(() => {
-      setShowContinue(false);
-      goNextQuestion();
-    }, 900);
   };
 
   const handleRestart = () => {
@@ -207,11 +224,13 @@ function App() {
                   onClick={() => handleOptionClick(index)}
                   disabled={isDisabled}
                   className={`option-btn ${
-                    selectedOption === index
-                      ? index === question.correctAnswer  
-                        ? 'correct'
-                        : 'incorrect'
-                      : ''
+                    showContinue && question && index === question.correctAnswer
+                      ? 'correct'
+                      : selectedOption === index
+                        ? index === question.correctAnswer
+                          ? 'correct'
+                          : 'incorrect'
+                        : ''
                   }`}
                   style={{ pointerEvents: justOpened ? 'none' : 'auto' }}
                 >
@@ -232,7 +251,12 @@ function App() {
                   borderRadius: '8px'
                 }}
               >
-                ⏳ Avançando automaticamente...
+                <div style={{ fontWeight: 700 }}>
+                  ✅ Resposta correta: {question ? `${optionLetters[question.correctAnswer]}. ${question.options[question.correctAnswer]}` : '--'}
+                </div>
+                <div style={{ marginTop: 6, fontSize: '0.98rem', color: '#c8e6c9' }}>
+                  Próxima questão em: <strong>{typeof reviewLeft === 'number' ? `${reviewLeft}s` : '--'}</strong>
+                </div>
                 {lastPointsEarned !== null && (
                   <div style={{ marginTop: 8, fontSize: '0.95rem', color: lastPointsEarned > 0 ? '#81c784' : '#ffcdd2' }}>
                     {lastPointsEarned > 0 ? `+${lastPointsEarned.toFixed(2)} pontos` : '+0.00 pontos'}
