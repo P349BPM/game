@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import questions from './data/questions.json';
 import '../src/App.css';
 import FinalScreen from './components/FinalScreen';
@@ -31,6 +31,8 @@ function App() {
   const [lastPointsEarned, setLastPointsEarned] = useState(null); // feedback da rodada
   const [justOpened, setJustOpened] = useState(false); // evita hover/click instantâneo ao abrir
   const [reviewLeft, setReviewLeft] = useState(null); // contagem regressiva (segundos) para ver a resposta correta
+  const reviewIntervalRef = useRef(null);
+  const reviewTimeoutRef = useRef(null);
   
   const question = questions[questionIndex] || null;
 
@@ -99,24 +101,19 @@ function App() {
     }
   }, [questionIndex, question, playerReady, isFinished]);
 
-  // Contagem regressiva da revisão antes de avançar
+  // Garante limpeza dos timers da revisão (interval/timeout) ao trocar de pergunta, reiniciar ou desmontar
   useEffect(() => {
-    if (!playerReady) return;
-    if (reviewLeft === null) return;
-
-    if (reviewLeft <= 0) {
-      setShowContinue(false);
-      setReviewLeft(null);
-      goNextQuestion();
-      return;
-    }
-
-    const t = setTimeout(() => {
-      setReviewLeft((prev) => (typeof prev === 'number' ? prev - 1 : null));
-    }, 1000);
-
-    return () => clearTimeout(t);
-  }, [reviewLeft, playerReady]);
+    return () => {
+      if (reviewIntervalRef.current) {
+        clearInterval(reviewIntervalRef.current);
+        reviewIntervalRef.current = null;
+      }
+      if (reviewTimeoutRef.current) {
+        clearTimeout(reviewTimeoutRef.current);
+        reviewTimeoutRef.current = null;
+      }
+    };
+  }, [questionIndex, playerReady, isFinished]);
 
   // ao trocar de pergunta, sempre limpa a seleção para evitar "marcada" de rodada anterior
   useEffect(() => {
@@ -135,7 +132,61 @@ function App() {
   const beginReview = () => {
     setIsDisabled(true);
     setShowContinue(true);
-    setReviewLeft(REVIEW_SECONDS);
+
+    // Alguns navegadores/devices podem throttlar/pausar timeouts de forma estranha.
+    // Aqui usamos um interval dedicado + um timeout de segurança para garantir avanço.
+    const start = Number(REVIEW_SECONDS);
+    setReviewLeft(start);
+
+    if (reviewIntervalRef.current) {
+      clearInterval(reviewIntervalRef.current);
+      reviewIntervalRef.current = null;
+    }
+    if (reviewTimeoutRef.current) {
+      clearTimeout(reviewTimeoutRef.current);
+      reviewTimeoutRef.current = null;
+    }
+
+    reviewIntervalRef.current = setInterval(() => {
+      setReviewLeft((prev) => {
+        const n = Number(prev);
+        if (!Number.isFinite(n)) return null;
+        const next = n - 1;
+        if (next <= 0) {
+          if (reviewIntervalRef.current) {
+            clearInterval(reviewIntervalRef.current);
+            reviewIntervalRef.current = null;
+          }
+          if (reviewTimeoutRef.current) {
+            clearTimeout(reviewTimeoutRef.current);
+            reviewTimeoutRef.current = null;
+          }
+          setShowContinue(false);
+          // Mantém o comportamento: avança para a próxima questão ao final da revisão
+          setTimeout(() => {
+            setReviewLeft(null);
+            goNextQuestion();
+          }, 0);
+          return 0;
+        }
+        return next;
+      });
+    }, 1000);
+
+    reviewTimeoutRef.current = setTimeout(() => {
+      // fallback caso o interval seja interrompido
+      if (reviewIntervalRef.current) {
+        clearInterval(reviewIntervalRef.current);
+        reviewIntervalRef.current = null;
+      }
+      if (reviewTimeoutRef.current) {
+        clearTimeout(reviewTimeoutRef.current);
+        reviewTimeoutRef.current = null;
+      }
+      setShowContinue(false);
+      setReviewLeft(null);
+      goNextQuestion();
+    }, start * 1000 + 250);
   };
 
   // Quando o tempo acabar, o candidato perde a questão e avança automaticamente
