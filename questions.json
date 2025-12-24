@@ -1,0 +1,332 @@
+[
+{
+"question": "De acordo com o art. 155 do CP, o furto se caracteriza pela subtração de:",
+"options": [
+"Coisa alheia móvel, para si ou para outrem.",
+"Coisa comum, exclusivamente para proveito próprio.",
+"Coisa imóvel, mediante violência.",
+"Coisa alheia, mediante grave ameaça.",
+"Energia elétrica, sem valor econômico."
+],
+"correctAnswer": 0
+},
+{
+"question": "Conforme o art. 155, § 4º do CP, NÃO configura furto qualificado:",
+"options": [
+"O cometido com destruição de obstáculo.",
+"O praticado mediante concurso de duas ou mais pessoas.",
+"A subtração praticada durante o repouso noturno.",
+"O cometido com emprego de chave falsa.",
+"O praticado mediante fraude ou destreza."
+],
+"correctAnswer": 2
+},
+{
+"question": "Nos termos do art. 156 do CP, o furto de coisa comum é crime:",
+"options": [
+"De ação penal pública incondicionada.",
+"Punível apenas com pena de reclusão.",
+"Punível, em regra, mediante representação.",
+"Impunível se o valor excede a quota do agente.",
+"Equiparado ao furto qualificado."
+],
+"correctAnswer": 3
+},
+{
+"question": "Segundo o art. 157 do CP, o roubo se diferencia do furto essencialmente pela presença de:",
+"options": [
+"Subtração de coisa alheia móvel.",
+"Ânimo de lucro.",
+"Violência ou grave ameaça à pessoa.",
+"Concurso de duas ou mais pessoas.",
+"Abuso de confiança."
+],
+"correctAnswer": 2
+},
+{
+"question": "Conforme o art. 158 do CP, a extorsão se configura quando há constrangimento para:",
+"options": [
+"Subtrair coisa móvel para si ou para outrem.",
+"Obter indevida vantagem econômica.",
+"Privar alguém de sua liberdade de locomoção.",
+"Destruir ou inutilizar coisa alheia.",
+"Apropriar-se de coisa achada."
+],
+"correctAnswer": 1
+},
+{
+"question": "De acordo com o art. 159 do CP, o sequestro com fim de extorsão tem sua pena aumentada se:",
+"options": [
+"O agente é primário.",
+"A vítima é maior de 60 anos.",
+"O resgate é pago voluntariamente.",
+"O crime é cometido sem violência.",
+"A vítima é liberta em menos de 24 horas."
+],
+"correctAnswer": 4
+},
+{
+"question": "Nos termos do art. 163 do CP, o crime de dano consiste em:",
+"options": [
+"Subtrair coisa alheia móvel.",
+"Constranger alguém a fazer algo.",
+"Destruir, inutilizar ou deteriorar coisa alheia.",
+"Apropriar-se de coisa alheia móvel.",
+"Alterar limite de propriedade imóvel."
+],
+"correctAnswer": 2
+},
+{
+"question": "Conforme o art. 168 do CP, a apropriação indébita exige que o agente:",
+"options": [
+"Subtraia coisa alheia móvel.",
+"Tenha a posse ou detenção da coisa alheia móvel.",
+"Constranga a vítima mediante grave ameaça.",
+"Destrua coisa de valor artístico ou histórico.",
+"Pratique o ato mediante fraude eletrônica."
+],
+"correctAnswer": 1
+},
+{
+"question": "Segundo o art. 169 do CP, a apropriação de coisa achada se configura quando o agente:",
+"options": [
+"Vende coisa alheia como própria.",
+"Deixa de restituir coisa perdida ao dono dentro do prazo legal.",
+"Subtrai coisa comum de condômino.",
+"Recebe coisa produto de crime.",
+"Destrói coisa alheia por motivo egoístico."
+],
+"correctAnswer": 0
+},
+{
+"question": "De acordo com o art. 171 do CP, o estelionato se caracteriza por:",
+"options": [
+"Violência contra a pessoa para subtrair coisa.",
+"Constrangimento para obter vantagem econômica.",
+"Induzir ou manter alguém em erro para obter vantagem ilícita.",
+"Apropriar-se de coisa que tem em posse.",
+"Destruir coisa alheia para receber indenização."
+],
+"correctAnswer": 3
+},
+{
+"question": "Conforme o art. 180 do CP, a receptação consiste em:",
+"options": [
+"Produzir coisa falsificada.",
+"Adquirir ou ocultar coisa que sabe ser produto de crime.",
+"Induzir alguém a praticar crime.",
+"Emitir documento falso.",
+"Apropriar-se de coisa havida por erro."
+],
+"correctAnswer": 1
+},
+{
+"question": "Nos termos do art. 213 do CP, o crime de estupro se configura por:",
+"options": [
+"Praticar ato libidinoso com menor de 14 anos.",
+"Constranger alguém, com violência, a ter conjunção carnal.",
+"Satisfazer lascívia na presença de adolescente.",
+"Induzir alguém a presenciar ato libidinoso.",
+"Gravar cena sexual sem autorização."
+],
+"correctAnswer": 4
+},
+{
+"question": "Segundo o art. 215-A do CP, a importunação sexual ocorre quando o agente pratica ato libidinoso:",
+"options": [
+"Mediante fraude que impeça a vontade da vítima.",
+"Sem a anuência da vítima, para satisfazer a própria lascívia.",
+"Valendo-se de superioridade hierárquica para obter favorecimento.",
+"Contra vulnerável que não pode oferecer resistência.",
+"E divulga registro do ato sem consentimento."
+],
+"correctAnswer": 2
+},
+{
+"question": "De acordo com o art. 216-A do CP, o assédio sexual exige que o agente:",
+"options": [
+"Pratique ato libidinoso sem anuência.",
+"Constranga alguém prevalecendo-se de superioridade hierárquica.",
+"Produza registro não autorizado da intimidade sexual.",
+"Induza menor a satisfazer lascívia de outrem.",
+"Pratique ato sexual mediante fraude."
+],
+"correctAnswer": 1
+},
+{
+"question": "Conforme o art. 217-A do CP, o estupro de vulnerável ocorre quando há conjunção carnal com:",
+"options": [
+"Alguém constrangido mediante grave ameaça.",
+"Menor de 14 anos, independentemente de consentimento.",
+"Alguém que não consente devido a fraude.",
+"Pessoa maior de 18 anos mediante violência.",
+"Alguém em troca de vantagem econômica."
+],
+"correctAnswer": 0
+},
+{
+"question": "Nos termos do art. 218-B do CP, favorecer a prostituição de vulnerável consiste em:",
+"options": [
+"Praticar ato libidinoso na presença de menor.",
+"Submeter ou induzir menor de 18 anos à exploração sexual.",
+"Divulgar cena de sexo sem consentimento.",
+"Corromper menor para satisfazer lascívia de outrem.",
+"Assediar sexualmente subordinado."
+],
+"correctAnswer": 3
+},
+{
+"question": "Segundo o art. 312 do CP, o peculato se caracteriza pela apropriação ou desvio de bem:",
+"options": [
+"Alheio, do qual o agente não tem posse.",
+"Público ou particular, de que o funcionário público tem posse em razão do cargo.",
+"Comum, por condômino ou sócio.",
+"Produto de crime, que o agente adquire.",
+"Encontrado por caso fortuito."
+],
+"correctAnswer": 4
+},
+{
+"question": "De acordo com o art. 317 do CP, a corrupção passiva ocorre quando o funcionário público:",
+"options": [
+"Exige vantagem indevida em razão da função.",
+"Desvia verba pública para aplicação diversa.",
+"Pratica ato de ofício contra disposição de lei.",
+"Revela segredo de que tem ciência pelo cargo.",
+"Deixa de responsabilizar subordinado por indulgência."
+],
+"correctAnswer": 0
+},
+{
+"question": "Conforme o art. 319 do CP, a prevaricação consiste em:",
+"options": [
+"Solicitar vantagem indevida em razão da função.",
+"Apropriar-se de dinheiro recebido por erro.",
+"Retardar ou deixar de praticar ato de ofício indevidamente.",
+"Facilitar a prática de contrabando.",
+"Patrocinar interesse privado perante a administração."
+],
+"correctAnswer": 2
+},
+{
+"question": "Nos termos do art. 325 do CP, violação de sigilo funcional consiste em:",
+"options": [
+"Apropriar-se de bem público.",
+"Exigir tributo indevido.",
+"Revelar fato que deva permanecer em segredo, do qual tem ciência pelo cargo.",
+"Inserir dados falsos em sistema da administração.",
+"Dar a verba pública aplicação diversa da legal."
+],
+"correctAnswer": 1
+},
+{
+"question": "Segundo o art. 327 do CP, para efeitos penais, considera-se funcionário público:",
+"options": [
+"Apenas quem exerce cargo efetivo e remunerado.",
+"Quem, mesmo transitoriamente ou sem remuneração, exerce função pública.",
+"Apenas servidores de entidades estatais, excluindo as paraestatais.",
+"Somente ocupantes de cargos em comissão.",
+"Exclui-se quem trabalha para empresa prestadora de serviço à administração."
+],
+"correctAnswer": 3
+},
+{
+"question": "Conforme os arts. 155 e 157 do CP, a diferença essencial entre furto e roubo é que neste há:",
+"options": [
+"Ânimo de lucro.",
+"Coisa alheia móvel.",
+"Elemento subjetivo doloso.",
+"Violência ou grave ameaça à pessoa.",
+"Dano patrimonial à vítima."
+],
+"correctAnswer": 4
+},
+{
+"question": "De acordo com o art. 158 e art. 159 do CP, a extorsão mediante sequestro se caracteriza pela restrição de liberdade:",
+"options": [
+"Como fim em si mesmo.",
+"Para obter vantagem como condição de resgate.",
+"Sem qualquer intuito de obtenção de vantagem.",
+"Apenas se durar mais de 48 horas.",
+"Somente se praticada com violência física."
+],
+"correctAnswer": 1
+},
+{
+"question": "Nos termos do art. 168 e art. 171 do CP, a apropriação indébita se diferencia do estelionato porque na primeira:",
+"options": [
+"Há indução da vítima em erro.",
+"O agente já tem a posse legítima da coisa.",
+"É necessário o emprego de violência.",
+"A coisa deve ser imóvel.",
+"Só se procede mediante representação."
+],
+"correctAnswer": 0
+},
+{
+"question": "Segundo o art. 180, § 3º do CP, na receptação culposa:",
+"options": [
+"O agente sabe que a coisa é produto de crime.",
+"O agente deve presumir, pelas circunstâncias, que a coisa é produto de crime.",
+"A pena é sempre de reclusão.",
+"Não há punibilidade se o autor do crime anterior for desconhecido.",
+"A ação penal é privada."
+],
+"correctAnswer": 2
+},
+{
+"question": "Conforme os arts. 213 e 217-A do CP, o estupro de vulnerável se distingue do estupro comum porque:",
+"options": [
+"Exige violência ou grave ameaça.",
+"A vítima é menor de 14 anos ou incapaz de oferecer resistência.",
+"Só se configura com conjunção carnal.",
+"Depende de representação da vítima.",
+"Tem pena sempre inferior."
+],
+"correctAnswer": 3
+},
+{
+"question": "De acordo com o art. 215 e art. 215-A do CP, a violação sexual mediante fraude se diferencia da importunação sexual porque na primeira:",
+"options": [
+"Há ato libidinoso sem anuência.",
+"O meio fraudulento impede ou dificulta a livre manifestação de vontade.",
+"Não há contato físico com a vítima.",
+"A pena é sempre de detenção.",
+"O crime é de ação penal privada."
+],
+"correctAnswer": 1
+},
+{
+"question": "Nos termos do art. 312 e art. 317 do CP, o peculato se distingue da corrupção passiva porque neste:",
+"options": [
+"Há apropriação de bem público.",
+"O funcionário solicita ou recebe vantagem indevida.",
+"O crime é sempre culposo.",
+"A pena é apenas de multa.",
+"Não há prejuízo ao patrimônio."
+],
+"correctAnswer": 0
+},
+{
+"question": "Segundo o art. 313-A e art. 325 do CP, a inserção de dados falsos em sistema de informações se diferencia da violação de sigilo funcional porque:",
+"options": [
+"Só ocorre no âmbito da administração privada.",
+"Envolve a revelação de segredo conhecido pelo cargo.",
+"Consiste em inserir, alterar ou excluir dados indevidamente em sistema da administração.",
+"Exige que o agente seja funcionário permanente.",
+"É crime de ação penal privada."
+],
+"correctAnswer": 4
+},
+{
+"question": "Conforme uma análise geral dos crimes contra o patrimônio, a 'coisa alheia móvel' para o furto (art. 155) NÃO se equipara a:",
+"options": [
+"Energia elétrica com valor econômico.",
+"Veículo automotor.",
+"Semovente domesticável de produção.",
+"Documento público (como um processo físico).",
+"Um terreno ou propriedade imóvel."
+],
+"correctAnswer": 3
+}
+]
