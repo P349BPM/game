@@ -1,332 +1,332 @@
 [
-  {
-    "question": "De acordo com o art. 121 do CP, o homicídio simples é considerado crime:",
-    "options": [
-      "Culposo contra a vida, punível com detenção.",
-      "Doloso contra a vida, punível com reclusão.",
-      "Praticado apenas com qualificadoras específicas.",
-      "De ação penal privada e condicionada à representação.",
-      "Apenas quando há motivo de relevante valor social."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Conforme o art. 121-A do CP, o feminicídio se caracteriza quando há:",
-    "options": [
-      "Homicídio de qualquer pessoa do sexo feminino, independentemente das razões.",
-      "Homicídio de mulher por razões da condição do sexo feminino.",
-      "Homicídio praticado exclusivamente no âmbito da violência doméstica.",
-      "Homicídio culposo contra mulher grávida.",
-      "Homicídio com emprego de meio cruel contra pessoa do sexo feminino."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Segundo o art. 14 do CP, a tentativa ocorre quando:",
-    "options": [
-      "O agente apenas cogita a prática do crime sem iniciar a execução.",
-      "Iniciada a execução, o crime não se consuma por circunstâncias alheias à vontade do agente.",
-      "O agente voluntariamente desiste de prosseguir na execução.",
-      "O crime é impossível pela absoluta impropriedade do objeto.",
-      "O agente impede voluntariamente a produção do resultado."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Nos termos do art. 18 do CP, diferencia-se crime doloso de culposo pelo:",
-    "options": [
-      "Tipo de pena cominada, sendo sempre mais grave o doloso.",
-      "Elemento subjetivo, relacionado à vontade ou à culpa na produção do resultado.",
-      "Momento da consumação, mais rápida no crime doloso.",
-      "Natureza da ação penal, pública no doloso e privada no culposo.",
-      "Presença ou ausência de qualificadoras no tipo penal."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Conforme o art. 13, §2º do CP, a omissão é penalmente relevante quando:",
-    "options": [
-      "O omitente podia agir, mas não tinha o dever legal de fazê-lo.",
-      "O omitente devia e podia agir para evitar o resultado.",
-      "Há apenas um dever moral de agir, sem previsão legal.",
-      "O resultado ocorreria independentemente da ação do omitente.",
-      "A omissão decorre de caso fortuito ou força maior."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "De acordo com o art. 23 do CP, não há crime quando o agente pratica o fato em estado de necessidade. Para sua configuração, é necessário que:",
-    "options": [
-      "O agente tenha provocado o perigo por sua vontade.",
-      "Haja perigo atual a direito próprio ou alheio, que não se podia de outro modo evitar.",
-      "O sacrifício do direito ameaçado seja sempre razoável e exigível.",
-      "O agente tenha dever legal de enfrentar o perigo.",
-      "O perigo seja futuro e hipotético."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Conforme o art. 26 do CP, a inimputabilidade por doença mental ou desenvolvimento mental incompleto exige que o agente seja:",
-    "options": [
-      "Parcialmente incapaz de entender o caráter ilícito do fato.",
-      "Inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
-      "Apenas portador de transtorno de personalidade sem comprometimento cognitivo.",
-      "Submetido a tratamento psiquiátrico anterior ao fato.",
-      "Considerado incapaz apenas para os atos da vida civil."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Segundo o art. 28 do CP, a embriaguez voluntária:",
-    "options": [
-      "Exclui totalmente a imputabilidade penal.",
-      "Reduz a pena obrigatoriamente pela metade.",
-      "Não exclui a imputabilidade penal.",
-      "Caracteriza sempre causa de diminuição de pena.",
-      "Transforma crime doloso em culposo."
-    ],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Nos termos do art. 122 do CP, induzir ou instigar alguém a suicidar-se é crime:",
-    "options": [
-      "Impunível, por considerar-se ato de liberdade da vítima.",
-      "De ação penal privada e de menor potencial ofensivo.",
-      "Contra a vida, punível com pena de reclusão.",
-      "Apenas quando o suicídio se consuma.",
-      "Equiparado ao homicídio privilegiado."
-    ],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Conforme o art. 128, II do CP, não se pune o aborto quando:",
-    "options": [
-      "A gestante é menor de 18 anos e não tem apoio familiar.",
-      "Há risco à saúde psicológica da gestante.",
-      "A gravidez resulta de estupro e há consentimento da gestante.",
-      "O feto apresenta má-formação congênita grave.",
-      "A gestante não possui condições econômicas para criar a criança."
-    ],
-    "correctAnswer": 2
-  },
-  {
-    "question": "De acordo com o art. 129, §9º do CP, a lesão corporal praticada no contexto de violência doméstica:",
-    "options": [
-      "Tem pena atenuada em relação à lesão simples.",
-      "Configura crime de menor potencial ofensivo.",
-      "Tem pena aumentada em relação à lesão corporal simples.",
-      "Só se configura se houver violência física grave.",
-      "Depende de representação da vítima para ação penal."
-    ],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Segundo o art. 135 do CP, a omissão de socorro exige que o agente:",
-    "options": [
-      "Tenha provocado a situação de perigo.",
-      "Seja parente ou responsável legal pela vítima.",
-      "Deixe de prestar assistência quando possível fazê-lo sem risco pessoal.",
-      "Seja profissional da saúde em exercício de função.",
-      "Tenha ciência exata da identidade da pessoa em perigo."
-    ],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Conforme o art. 138 do CP, a calúnia se diferencia da injúria e da difamação por:",
-    "options": [
-      "Ser sempre crime de ação penal pública incondicionada.",
-      "Imputar falsamente a alguém fato definido como crime.",
-      "Ofender apenas a honra subjetiva da vítima.",
-      "Requerer dolo específico de causar prejuízo patrimonial.",
-      "Ter pena mais branda que os demais crimes contra a honra."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "De acordo com o art. 146 do CP, o constrangimento ilegal pode ser praticado:",
-    "options": [
-      "Apenas mediante violência física direta.",
-      "Somente contra funcionário público no exercício da função.",
-      "Mediante violência, grave ameaça ou redução da capacidade de resistência.",
-      "Exclusivamente para obter vantagem econômica indevida.",
-      "Apenas quando há sequestro ou cárcere privado associado."
-    ],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Nos termos do art. 147-A do CP, a perseguição (stalking) caracteriza-se por:",
-    "options": [
-      "Atuação isolada e não repetitiva contra a vítima.",
-      "Conduta reiterada que ameaça a integridade física ou psicológica.",
-      "Apenas monitoramento virtual sem contato pessoal.",
-      "Crime de menor potencial ofensivo punível apenas com multa.",
-      "Conduta exclusivamente praticada por ex-cônjuge ou companheiro."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Conforme o art. 148 do CP, o sequestro ou cárcere privado consiste em:",
-    "options": [
-      "Impedir temporariamente a liberdade de locomoção em via pública.",
-      "Privar alguém de sua liberdade, mediante sequestro ou cárcere privado.",
-      "Apenas quando há pedido de resgate em dinheiro.",
-      "Crime que exige, necessariamente, violência física grave.",
-      "Conduta equiparada ao roubo qualificado."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "De acordo com o art. 149 do CP, a redução a condição análoga à de escravo inclui:",
-    "options": [
-      "Apenas trabalho forçado sem qualquer remuneração.",
-      "Qualquer relação de trabalho com jornada superior a 8 horas.",
-      "Submissão a trabalhos forçados, jornada exaustiva ou condições degradantes.",
-      "Trabalho doméstico sem carteira assinada.",
-      "Contratação de imigrante em situação irregular."
-    ],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Segundo o art. 20, §1º do CP, na descriminante putativa:",
-    "options": [
-      "O agente responde por crime doloso, com pena atenuada.",
-      "Há isenção de pena se o erro sobre a situação de fato era inevitável.",
-      "Aplica-se apenas ao erro sobre a pessoa da vítima.",
-      "O agente sempre responde por crime culposo, se previsto.",
-      "Caracteriza erro de tipo que exclui totalmente a punibilidade."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Conforme o art. 15 do CP, na desistência voluntária:",
-    "options": [
-      "O agente responde pela tentativa com pena reduzida.",
-      "O agente responde apenas pelos atos já praticados.",
-      "Há isenção total de pena, independentemente dos atos praticados.",
-      "Aplica-se apenas a crimes cometidos sem violência.",
-      "Exige que o agente impeça totalmente o resultado."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "De acordo com o art. 17 do CP, no crime impossível:",
-    "options": [
-      "Pune-se a tentativa com pena reduzida.",
-      "Não se pune a tentativa por ineficácia absoluta do meio.",
-      "O agente responde por crime culposo, se previsto.",
-      "Aplica-se o princípio da insignificância.",
-      "Caracteriza desistência voluntária presumida."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Segundo o art. 19 do CP, no crime preterdoloso:",
-    "options": [
-      "O agente responde apenas pela conduta inicial dolosa.",
-      "Responde pelo resultado agravador apenas se o causou dolosamente.",
-      "Responde pelo resultado agravador se o causou ao menos culposamente.",
-      "Não há responsabilidade pelo resultado mais grave em nenhuma hipótese.",
-      "Configura concurso formal de crimes."
-    ],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Conforme o art. 21 do CP, o erro sobre a ilicitude do fato:",
-    "options": [
-      "É sempre inescusável, como o desconhecimento da lei.",
-      "Se inevitável, isenta de pena; se evitável, pode diminuí-la.",
-      "Exclui o dolo, permitindo apenas punição por crime culposo.",
-      "Só é reconhecido quando decorrente de doença mental.",
-      "Caracteriza sempre descriminante putativa."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "De acordo com o art. 22 do CP, na coação irresistível:",
-    "options": [
-      "Responde apenas o agente que pratica o fato sob coação.",
-      "Responde apenas o autor da coação.",
-      "Ambos, agente e coator, respondem solidariamente.",
-      "Há diminuição obrigatória de pena para o agente coagido.",
-      "Caracteriza legítima defesa putativa."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Segundo o art. 24, §1º do CP, não pode alegar estado de necessidade:",
-    "options": [
-      "Quem age para salvar direito de valor superior ao sacrificado.",
-      "Quem tinha o dever legal de enfrentar o perigo.",
-      "Quem provocou culposamente a situação de perigo.",
-      "Quem age para salvar direito alheio, não próprio.",
-      "Quem podia de outro modo evitar o perigo."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Conforme o art. 27 do CP, os menores de 18 anos são:",
-    "options": [
-      "Punidos com penas educativas específicas do CP.",
-      "Penalmente inimputáveis, sujeitos à legislação especial.",
-      "Imputáveis apenas para crimes hediondos.",
-      "Submetidos ao mesmo regime penal dos adultos, com penas reduzidas.",
-      "Considerados relativamente incapazes para todos os efeitos penais."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "De acordo com o art. 33, caput do CP, as penas privativas de liberdade são:",
-    "options": [
-      "Reclusão, detenção e prisão simples.",
-      "Reclusão e detenção, com regimes de cumprimento distintos.",
-      "Apenas reclusão para crimes dolosos.",
-      "Detenção exclusivamente para crimes culposos.",
-      "Reclusão em regime fechado e detenção em regime aberto."
-    ],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Segundo o art. 44 do CP, as penas restritivas de direitos substituem as privativas de liberdade quando:",
-    "options": [
-      "O crime é hediondo ou equiparado.",
-      "A pena privativa de liberdade é superior a 8 anos.",
-      "O réu é reincidente em crime doloso.",
-      "A pena não superior a 4 anos e o crime não foi violento.",
-      "O crime é cometido com grave ameaça à pessoa."
-    ],
-    "correctAnswer": 3
-  },
-  {
-    "question": "Conforme o art. 59 do CP, na dosimetria da pena, o juiz deve considerar:",
-    "options": [
-      "Apenas a gravidade concreta do fato.",
-      "Apenas os antecedentes do agente.",
-      "Circunstâncias judiciais como culpabilidade e conduta social.",
-      "Exclusivamente o prejuízo causado à vítima.",
-      "Somente a personalidade do agente."
-    ],
-    "correctAnswer": 2
-  },
-  {
-    "question": "De acordo com o art. 150 do CP, violação de domicílio NÃO ocorre quando:",
-    "options": [
-      "A entrada é clandestina ou astuciosa.",
-      "A entrada se dá contra a vontade expressa do morador.",
-      "A entrada é durante o dia para efetuar prisão legal.",
-      "A permanência é contra a vontade tácita do morador.",
-      "Há emprego de violência para entrar no imóvel."
-    ],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Segundo a sistemática do CP, o concurso de pessoas ocorre quando:",
-    "options": [
-      "Dois ou mais agentes, independentemente, cometem crimes semelhantes.",
-      "Há pluralidade de agentes concorrendo para a prática do mesmo crime.",
-      "Um agente pratica vários crimes em sequência temporal.",
-      "Há vítimas múltiplas em crime praticado por único agente.",
-      "O crime é praticado por organização criminosa estruturada."
-    ],
-    "correctAnswer": 1
-  }
+{
+"question": "De acordo com o art. 155 do CP, o furto se caracteriza pela subtração de:",
+"options": [
+"Coisa alheia móvel, para si ou para outrem.",
+"Coisa comum, exclusivamente para proveito próprio.",
+"Coisa imóvel, mediante violência.",
+"Coisa alheia, mediante grave ameaça.",
+"Energia elétrica, sem valor econômico."
+],
+"correctAnswer": 0
+},
+{
+"question": "Conforme o art. 155, § 4º do CP, NÃO configura furto qualificado:",
+"options": [
+"O cometido com destruição de obstáculo.",
+"O praticado mediante concurso de duas ou mais pessoas.",
+"A subtração praticada durante o repouso noturno.",
+"O cometido com emprego de chave falsa.",
+"O praticado mediante fraude ou destreza."
+],
+"correctAnswer": 2
+},
+{
+"question": "Nos termos do art. 156 do CP, o furto de coisa comum é crime:",
+"options": [
+"De ação penal pública incondicionada.",
+"Punível apenas com pena de reclusão.",
+"Punível, em regra, mediante representação.",
+"Impunível se o valor excede a quota do agente.",
+"Equiparado ao furto qualificado."
+],
+"correctAnswer": 3
+},
+{
+"question": "Segundo o art. 157 do CP, o roubo se diferencia do furto essencialmente pela presença de:",
+"options": [
+"Subtração de coisa alheia móvel.",
+"Ânimo de lucro.",
+"Violência ou grave ameaça à pessoa.",
+"Concurso de duas ou mais pessoas.",
+"Abuso de confiança."
+],
+"correctAnswer": 2
+},
+{
+"question": "Conforme o art. 158 do CP, a extorsão se configura quando há constrangimento para:",
+"options": [
+"Subtrair coisa móvel para si ou para outrem.",
+"Obter indevida vantagem econômica.",
+"Privar alguém de sua liberdade de locomoção.",
+"Destruir ou inutilizar coisa alheia.",
+"Apropriar-se de coisa achada."
+],
+"correctAnswer": 1
+},
+{
+"question": "De acordo com o art. 159 do CP, o sequestro com fim de extorsão tem sua pena aumentada se:",
+"options": [
+"O agente é primário.",
+"A vítima é maior de 60 anos.",
+"O resgate é pago voluntariamente.",
+"O crime é cometido sem violência.",
+"A vítima é liberta em menos de 24 horas."
+],
+"correctAnswer": 4
+},
+{
+"question": "Nos termos do art. 163 do CP, o crime de dano consiste em:",
+"options": [
+"Subtrair coisa alheia móvel.",
+"Constranger alguém a fazer algo.",
+"Destruir, inutilizar ou deteriorar coisa alheia.",
+"Apropriar-se de coisa alheia móvel.",
+"Alterar limite de propriedade imóvel."
+],
+"correctAnswer": 2
+},
+{
+"question": "Conforme o art. 168 do CP, a apropriação indébita exige que o agente:",
+"options": [
+"Subtraia coisa alheia móvel.",
+"Tenha a posse ou detenção da coisa alheia móvel.",
+"Constranga a vítima mediante grave ameaça.",
+"Destrua coisa de valor artístico ou histórico.",
+"Pratique o ato mediante fraude eletrônica."
+],
+"correctAnswer": 1
+},
+{
+"question": "Segundo o art. 169 do CP, a apropriação de coisa achada se configura quando o agente:",
+"options": [
+"Vende coisa alheia como própria.",
+"Deixa de restituir coisa perdida ao dono dentro do prazo legal.",
+"Subtrai coisa comum de condômino.",
+"Recebe coisa produto de crime.",
+"Destrói coisa alheia por motivo egoístico."
+],
+"correctAnswer": 0
+},
+{
+"question": "De acordo com o art. 171 do CP, o estelionato se caracteriza por:",
+"options": [
+"Violência contra a pessoa para subtrair coisa.",
+"Constrangimento para obter vantagem econômica.",
+"Induzir ou manter alguém em erro para obter vantagem ilícita.",
+"Apropriar-se de coisa que tem em posse.",
+"Destruir coisa alheia para receber indenização."
+],
+"correctAnswer": 3
+},
+{
+"question": "Conforme o art. 180 do CP, a receptação consiste em:",
+"options": [
+"Produzir coisa falsificada.",
+"Adquirir ou ocultar coisa que sabe ser produto de crime.",
+"Induzir alguém a praticar crime.",
+"Emitir documento falso.",
+"Apropriar-se de coisa havida por erro."
+],
+"correctAnswer": 1
+},
+{
+"question": "Nos termos do art. 213 do CP, o crime de estupro se configura por:",
+"options": [
+"Praticar ato libidinoso com menor de 14 anos.",
+"Constranger alguém, com violência, a ter conjunção carnal.",
+"Satisfazer lascívia na presença de adolescente.",
+"Induzir alguém a presenciar ato libidinoso.",
+"Gravar cena sexual sem autorização."
+],
+"correctAnswer": 4
+},
+{
+"question": "Segundo o art. 215-A do CP, a importunação sexual ocorre quando o agente pratica ato libidinoso:",
+"options": [
+"Mediante fraude que impeça a vontade da vítima.",
+"Sem a anuência da vítima, para satisfazer a própria lascívia.",
+"Valendo-se de superioridade hierárquica para obter favorecimento.",
+"Contra vulnerável que não pode oferecer resistência.",
+"E divulga registro do ato sem consentimento."
+],
+"correctAnswer": 2
+},
+{
+"question": "De acordo com o art. 216-A do CP, o assédio sexual exige que o agente:",
+"options": [
+"Pratique ato libidinoso sem anuência.",
+"Constranga alguém prevalecendo-se de superioridade hierárquica.",
+"Produza registro não autorizado da intimidade sexual.",
+"Induza menor a satisfazer lascívia de outrem.",
+"Pratique ato sexual mediante fraude."
+],
+"correctAnswer": 1
+},
+{
+"question": "Conforme o art. 217-A do CP, o estupro de vulnerável ocorre quando há conjunção carnal com:",
+"options": [
+"Alguém constrangido mediante grave ameaça.",
+"Menor de 14 anos, independentemente de consentimento.",
+"Alguém que não consente devido a fraude.",
+"Pessoa maior de 18 anos mediante violência.",
+"Alguém em troca de vantagem econômica."
+],
+"correctAnswer": 0
+},
+{
+"question": "Nos termos do art. 218-B do CP, favorecer a prostituição de vulnerável consiste em:",
+"options": [
+"Praticar ato libidinoso na presença de menor.",
+"Submeter ou induzir menor de 18 anos à exploração sexual.",
+"Divulgar cena de sexo sem consentimento.",
+"Corromper menor para satisfazer lascívia de outrem.",
+"Assediar sexualmente subordinado."
+],
+"correctAnswer": 3
+},
+{
+"question": "Segundo o art. 312 do CP, o peculato se caracteriza pela apropriação ou desvio de bem:",
+"options": [
+"Alheio, do qual o agente não tem posse.",
+"Público ou particular, de que o funcionário público tem posse em razão do cargo.",
+"Comum, por condômino ou sócio.",
+"Produto de crime, que o agente adquire.",
+"Encontrado por caso fortuito."
+],
+"correctAnswer": 4
+},
+{
+"question": "De acordo com o art. 317 do CP, a corrupção passiva ocorre quando o funcionário público:",
+"options": [
+"Exige vantagem indevida em razão da função.",
+"Desvia verba pública para aplicação diversa.",
+"Pratica ato de ofício contra disposição de lei.",
+"Revela segredo de que tem ciência pelo cargo.",
+"Deixa de responsabilizar subordinado por indulgência."
+],
+"correctAnswer": 0
+},
+{
+"question": "Conforme o art. 319 do CP, a prevaricação consiste em:",
+"options": [
+"Solicitar vantagem indevida em razão da função.",
+"Apropriar-se de dinheiro recebido por erro.",
+"Retardar ou deixar de praticar ato de ofício indevidamente.",
+"Facilitar a prática de contrabando.",
+"Patrocinar interesse privado perante a administração."
+],
+"correctAnswer": 2
+},
+{
+"question": "Nos termos do art. 325 do CP, violação de sigilo funcional consiste em:",
+"options": [
+"Apropriar-se de bem público.",
+"Exigir tributo indevido.",
+"Revelar fato que deva permanecer em segredo, do qual tem ciência pelo cargo.",
+"Inserir dados falsos em sistema da administração.",
+"Dar a verba pública aplicação diversa da legal."
+],
+"correctAnswer": 1
+},
+{
+"question": "Segundo o art. 327 do CP, para efeitos penais, considera-se funcionário público:",
+"options": [
+"Apenas quem exerce cargo efetivo e remunerado.",
+"Quem, mesmo transitoriamente ou sem remuneração, exerce função pública.",
+"Apenas servidores de entidades estatais, excluindo as paraestatais.",
+"Somente ocupantes de cargos em comissão.",
+"Exclui-se quem trabalha para empresa prestadora de serviço à administração."
+],
+"correctAnswer": 3
+},
+{
+"question": "Conforme os arts. 155 e 157 do CP, a diferença essencial entre furto e roubo é que neste há:",
+"options": [
+"Ânimo de lucro.",
+"Coisa alheia móvel.",
+"Elemento subjetivo doloso.",
+"Violência ou grave ameaça à pessoa.",
+"Dano patrimonial à vítima."
+],
+"correctAnswer": 4
+},
+{
+"question": "De acordo com o art. 158 e art. 159 do CP, a extorsão mediante sequestro se caracteriza pela restrição de liberdade:",
+"options": [
+"Como fim em si mesmo.",
+"Para obter vantagem como condição de resgate.",
+"Sem qualquer intuito de obtenção de vantagem.",
+"Apenas se durar mais de 48 horas.",
+"Somente se praticada com violência física."
+],
+"correctAnswer": 1
+},
+{
+"question": "Nos termos do art. 168 e art. 171 do CP, a apropriação indébita se diferencia do estelionato porque na primeira:",
+"options": [
+"Há indução da vítima em erro.",
+"O agente já tem a posse legítima da coisa.",
+"É necessário o emprego de violência.",
+"A coisa deve ser imóvel.",
+"Só se procede mediante representação."
+],
+"correctAnswer": 0
+},
+{
+"question": "Segundo o art. 180, § 3º do CP, na receptação culposa:",
+"options": [
+"O agente sabe que a coisa é produto de crime.",
+"O agente deve presumir, pelas circunstâncias, que a coisa é produto de crime.",
+"A pena é sempre de reclusão.",
+"Não há punibilidade se o autor do crime anterior for desconhecido.",
+"A ação penal é privada."
+],
+"correctAnswer": 2
+},
+{
+"question": "Conforme os arts. 213 e 217-A do CP, o estupro de vulnerável se distingue do estupro comum porque:",
+"options": [
+"Exige violência ou grave ameaça.",
+"A vítima é menor de 14 anos ou incapaz de oferecer resistência.",
+"Só se configura com conjunção carnal.",
+"Depende de representação da vítima.",
+"Tem pena sempre inferior."
+],
+"correctAnswer": 3
+},
+{
+"question": "De acordo com o art. 215 e art. 215-A do CP, a violação sexual mediante fraude se diferencia da importunação sexual porque na primeira:",
+"options": [
+"Há ato libidinoso sem anuência.",
+"O meio fraudulento impede ou dificulta a livre manifestação de vontade.",
+"Não há contato físico com a vítima.",
+"A pena é sempre de detenção.",
+"O crime é de ação penal privada."
+],
+"correctAnswer": 1
+},
+{
+"question": "Nos termos do art. 312 e art. 317 do CP, o peculato se distingue da corrupção passiva porque neste:",
+"options": [
+"Há apropriação de bem público.",
+"O funcionário solicita ou recebe vantagem indevida.",
+"O crime é sempre culposo.",
+"A pena é apenas de multa.",
+"Não há prejuízo ao patrimônio."
+],
+"correctAnswer": 0
+},
+{
+"question": "Segundo o art. 313-A e art. 325 do CP, a inserção de dados falsos em sistema de informações se diferencia da violação de sigilo funcional porque:",
+"options": [
+"Só ocorre no âmbito da administração privada.",
+"Envolve a revelação de segredo conhecido pelo cargo.",
+"Consiste em inserir, alterar ou excluir dados indevidamente em sistema da administração.",
+"Exige que o agente seja funcionário permanente.",
+"É crime de ação penal privada."
+],
+"correctAnswer": 4
+},
+{
+"question": "Conforme uma análise geral dos crimes contra o patrimônio, a 'coisa alheia móvel' para o furto (art. 155) NÃO se equipara a:",
+"options": [
+"Energia elétrica com valor econômico.",
+"Veículo automotor.",
+"Semovente domesticável de produção.",
+"Documento público (como um processo físico).",
+"Um terreno ou propriedade imóvel."
+],
+"correctAnswer": 3
+}
 ]
